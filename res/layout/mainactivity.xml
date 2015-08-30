@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/rice"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/title_firstactivity"
+                android:textColor="@color/black"
+                android:textSize="29sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/info_firstactivity"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="5sp" />
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/lightsteelblue"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/username_tv_firstactivity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/main_word"
+                android:textSize="20sp" >
+            </TextView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/total_distance_firstactivity"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/totalDistanceTV_firstactivity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="0メートル"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/awardTV_firstactivity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="次の目標:"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="5sp" />
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/buttonStart"
+                android:layout_width="fill_parent"
+                android:layout_height="72sp"
+                android:text="@string/start_sensing_firstactivity"
+                android:textSize="20sp" />
+
+ <!--            <Button
+                android:id="@+id/buttonStartWheel"
+                android:layout_width="fill_parent"
+                android:layout_height="48sp"
+                android:text="@string/start_sensing_firstactivity"
+                android:textSize="20sp" />
+-->
+            <Button
+                android:id="@+id/buttonViewLocal"
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:text="@string/navimode_firstactivity" />
+
+            <Button
+                android:id="@+id/buttonSettings"
+                android:layout_width="fill_parent"
+                android:layout_height="48sp"
+                android:text="@string/settings_firstactivity" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

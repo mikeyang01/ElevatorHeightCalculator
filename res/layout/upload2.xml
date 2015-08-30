@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/rice"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/title_upload"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/main_word" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/location_upload"
+                android:textColor="@color/main_word" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/coordinateTV_upload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/main_word" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total_distance_upload"
+                android:textColor="@color/main_word" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/distanceTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/main_word" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/elevatorSpacelayout_upload"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           android:orientation="horizontal">
+        </LinearLayout>
+
+        <!--
+        <LinearLayout
+            android:id="@+id/buildinglistlayout_upload"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/elevatorlistlayout_upload"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/loadinglayout_upload"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout> -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/selectBuildingName_upload"
+                android:textColor="@color/main_word" >
+            </TextView>
+
+            <Button
+                android:id="@+id/upload_buildingListBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/buildinglist_btn_upload" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/selectElevatorName_upload"
+                android:textColor="@color/main_word" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/elevatorName_tv_upload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:text="">
+            </TextView>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="6sp" >
+        </TextView>
+
+        <Button
+            android:id="@+id/upload_addtionalInfobutton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/addtionalbtn_upload" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="6sp" >
+        </TextView>
+
+        <Button
+            android:id="@+id/upload_Button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/upload_data_upload"
+            android:textColor="@color/main_word" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="6sp" >
+        </TextView>
+
+        <Button
+            android:id="@+id/upload_storeLocal_Button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/storeLocal_upload"
+            android:textColor="@color/main_word" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="6sp" >
+        </TextView>
+    </LinearLayout>
+
+</ScrollView>

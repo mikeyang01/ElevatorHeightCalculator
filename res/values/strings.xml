@@ -1,0 +1,150 @@
+<resources>
+
+    <!-- en -->
+    <string name="app_name">Elevator Height Calculator</string>
+    <string name="uploadsuccess">Upload Success!!</string>
+    <string name="None">None</string>
+    <string name="cancel_return_to_main">Cancel</string>
+    <string name="return_to_main">Return to Main Window</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="aboutMessage">Elevator Height Calculator v0.14\nThis App aims to collect elevator acceleration data for university research use.\nPlease help us to collect elevator data.\nFirst, please read the tutorial.</string>
+
+    <!-- main activity -->
+    <string name="main_meter"> meters</string>
+    <string name="title_firstactivity">Elevator Height Calculator</string>
+    <string name="info_firstactivity">ver 0.14\nThis App collect elevator data for university research use.\nThank you for collecting the data!</string>
+    <string name="start_sensing_firstactivity">Start Sensing</string>
+    <string name="navimode_firstactivity">Data List</string>
+    <string name="view_local_files_firstactivity">Local File List</string>
+    <string name="settings_firstactivity">Settings/Tutorial</string>
+    <string name="total_distance_firstactivity">Total elevator distance：</string>
+
+    <!-- sensing activity -->
+    <string name="intro1_sensing">Before you go into the elevator,</string>
+    <string name="intro2_sensing">Please put the smartphone in the pocket！</string>
+    <string name="sensing_sensing">Accelerometer is Sensing.....</string>
+    <string name="textview2_sensing">Please DO NOT turn off the Screen!</string>
+    <string name="sensing_getofftheelevator">Are you out of the elevator already? </string>
+    <string name="sensing_cancel">Cancel(Double Click)</string>
+    <string name="sensing_yes">Yes(Double Click)</string>
+    <string name="finishbutton_sensing">Cancel Sensing?</string>
+    <string name="finishbuttonyes_sensing">Yes</string>
+    <string name="finishbuttonno_sensing">No</string>
+    <string name="bigredword_sensing">Vertical Accel: </string>
+
+    <!-- calculated results -->
+    <string name="title_calculatedresults">Calcuated Results</string>
+    <string name="calcualted_btn_inputEleInfo">Input Elevator Information</string>
+    <string name="store_to_local_calcualtedresults">Store in Local</string>
+    <string name="calculated_recoging">Elevator Recognizing....\n</string>
+    <string name="calculated_returnbutton">Return to FileList</string>
+    <string name="calcualted_EleSeg">Elevator Segments:</string>
+    <string name="calculated_times">times\nDistance:</string>
+    <string name="calculated_speed">m\nMaxmum Velocity:</string>
+    <string name="calculated_unrecog">Cannot find any elevators.\nIf you just senserd the elevator data, please press the button below.</string>
+    <string name="calculated_unit">m/s</string>
+
+    <!-- upload activity -->
+    <string name="title_upload">Upload Data</string>
+    <string name="uuid_upload">UUID: </string>
+    <string name="location_upload">Location: </string>
+    <string name="total_distance_upload">Distance: </string>
+    <string name="gettinglocation_upload">Locating....</string>
+    <string name="accuracy_upload">Accuracy:</string>
+    <string name="meters_upload">m</string>
+    <string name="take_photo_upload">Take a Photo</string>
+    <string name="upload_data_upload">Upload Results</string>
+    <string name="storeLocal_upload">Store in Local</string>
+    <string name="loading_tv_upload">Uploading....</string>
+    <string name="finishbutton_upload">Cancel？</string>
+    <string name="finishbuttonyes_upload">Yes</string>
+    <string name="finishbuttonno_upload">No</string>
+    <string name="insertBuilding_upload">Insert Building</string>
+    <string name="insertElevator_upload">Insert Elevator</string>
+    <string name="selectBuilding_upload">Please select building:</string>
+    <string name="selectElevator_upload">Please select elevator:</string>
+    <string name="getLocation_upload">Get location....</string>
+    <string name="failed_gettinglocation_upload">Get location failed</string>        
+    <string name="startFloor_upload">Start floor:</string>
+    <string name="middleFloor_upload">Stop floor：</string>
+    <string name="endFloor_upload">End floor:</string>
+    <string name="storeLocalToast_upload">Data is stored in local.</string>
+    <string name="ToastServerFailStoreLocal_upload">Cannot connect to server, data is stored in local.</string>
+    <string name="ToastServerSuccess_upload">Upload success!</string>
+    <string name="titleInBuilding_upload">Please input building name(example:Nagoya U IB building)</string>
+    <string name="titleInElevator_upload">Please input elevator name(if there is only one elevator, you donnot need to input)</string>
+    <string name="OnlyOneEle_upload">Only One Elevator</string>
+    <string name="addtionalbtn_upload">Additional Information(Optional)</string>
+    <string name="refreshHint_upload">If you make some misstake or the Cellphone did not get location, please press this button to reload the window.</string>
+    <string name="refreshbtn_upload">Refesh</string>
+	<string name="buildinglist_btn_upload">Select Building</string>
+    <string name="collectBuilding_Btn_upload">Searching Buildings nearby....</string>
+	<string name="inputFloorNumber_upload">Input Floor</string>
+	<string name="selectBuildingName_upload">Building:</string>	
+    <string name="selectElevatorName_upload">Elevator:</string>
+	
+    <!-- additional info short Survey  -->
+    <string name="additional_title">Simple Survey</string>
+    <string name="additional_feelings">Do you feel elevator&#096;s acceleration?</string>
+    <string name="additional_shake">Do you feel elevator&#096;s vibration？</string>
+    
+    <string name="additional_acc_bad">Much</string>
+    <string name="additional_acc_normal">Slightly</string>
+    <string name="additional_acc_good">No</string>     
+    <string name="additional_shake_bad">Much</string>
+    <string name="additional_shake_normal">Slightly</string>
+    <string name="additional_shake_good">No</string>
+    
+    <string name="additional_capacity">Maximum Capacity of Weight</string>
+    <string name="additional_inputCapacity">kg</string>
+    <string name="additional_manufacturer">Choose a Manufacturer</string>
+    <string name="additional_chooseManufacturer">Select a Manufacturer</string>
+    <string name="additional_insertManufacturer">Insert a Manufacturer：</string>
+    <string name="additional_mitubishi">Mitubishi</string>
+    <string name="additional_hitachi">Hitachi</string>
+    <string name="additional_toshiba">Toshiba</string>
+    <string name="additional_otis">Otis</string>
+    <string name="additional_fujitech">Fujitech</string>
+    <string name="additional_Schindler">Schindler</string>
+    <string name="additional_nobrand">No Brand</string>
+    <string name="additional_otherBrand">Other Brand</string>
+    <string name="additional_otherElevator">Anything is OK</string>
+    <string name="additional_meno">Memo</string>
+    <string name="additional_return">Return to Upload</string>
+    <!-- additional info long Survey -->
+    <string name="additional__whenaccel">While accelerating</string>
+    <string name="additional_whenshake">Do you feel the shake during moving?</string>
+    <string name="additional_whendecel">While decelerating</string>    
+    
+    <!-- common -->
+    <string name="select_none">Input Number</string>
+    <string name="common_selected"> selected</string>
+    
+    <!-- Settings activity -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_title_version">About</string>
+    <string name="settings_title_policy">Policy</string>
+    <string name="sdcard_stored_data">Collected Data</string>
+    <string name="setusername_settings">Set User Name</string>
+    <string name="helptitile_settings">Help</string>
+    <string name="tutorialbutton_settings">Read Tutorial</string>
+    <string name="username_settings">User Name：</string>
+    <string name="AuthorName">Programmed by Yang Tianhui</string>
+    <string name="university">Nagoya University UCLab\nProduced by Nobuo Kawaguchi</string>
+    <string name="verson">Verson 0.14</string>
+    <string name="Mail">Mail: elevator.locky@uclab.jp</string>
+    <string name="notice">In order to protect user\'s privacy,we DO NOT collect cellphone ID, user\'s contracts or SIM card information.</string>
+    <string name="notice2">To distinguish different cellphones, we create radnom numbers to generate UUID. We only collect UUID, cellphone producer, model, elevator location and accelerometer data.</string>
+    <string name="mailbutton_settings">Email:elevator.locky@uclab.jp</string>
+
+    <!-- file viewer activity -->
+    <string name="fileViwer_noUnuploadedFile">No Data</string>
+    <string name="fileViwer_unsend">unsend</string>
+    <string name="fileViwer_serverFail">Cannot connect to server, please check the network and upload again.</string>
+    <string name="fileViwer_serverSuccess">Upload Success</string>
+    <string name="fileViwer_select">Please Select</string>
+    <string name="fileViwer_delete">Delete</string>
+    <string name="fileViwer_recog">Recognize</string>
+    <string name="fileViwer_upload">Upload</string>
+</resources>

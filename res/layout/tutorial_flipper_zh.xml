@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ViewFlipper
+        android:id="@+id/flipper_zh"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <include
+            android:id="@+id/firstlayout_zh"
+            layout="@layout/tutorial_zh1" />
+
+        <include
+            android:id="@+id/secondlayout_zh"
+            layout="@layout/tutorial_zh2" />
+
+        <include
+            android:id="@+id/thirdlayout_zh"
+            layout="@layout/tutorial_zh3" />
+
+        <include
+            android:id="@+id/thirdlayout_zh"
+            layout="@layout/tutorial_zh4" />
+    </ViewFlipper>
+
+</LinearLayout>

@@ -1,0 +1,150 @@
+<resources>
+
+    <!-- zh -->
+    <string name="app_name">电梯高度计</string>
+    <string name="uploadsuccess">上传成功!!</string>
+    <string name="None">没有</string>
+    <string name="cancel_return_to_main">取消</string>
+    <string name="return_to_main">返回主页面</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="aboutMessage">电梯高度计 v0.20\n谢谢你的使用。这个软件用来收集电梯的加速度数据给大学研究用\n 请先看一下教程</string>
+
+    <!-- main activity -->
+    <string name="main_meter"> 米</string>
+    <string name="title_firstactivity">电梯高度计</string>
+    <string name="info_firstactivity">ver 0.20\n这个软件收集电梯数据供大学研究\n谢谢您的合作</string>
+    <string name="start_sensing_firstactivity">开始收集数据</string>
+    <string name="navimode_firstactivity">数据一览</string>
+    <string name="view_local_files_firstactivity">浏览本地文件</string>
+    <string name="settings_firstactivity">设定和教程</string>
+    <string name="total_distance_firstactivity">电梯的总移动距离：</string>
+
+    <!-- sensing activity -->
+    <string name="intro1_sensing">在进入电梯前</string>
+    <string name="intro2_sensing">请把手机放入口袋中！</string>
+    <string name="sensing_sensing">加速度传感器正在收集数据...</string>
+    <string name="textview2_sensing">请不要关闭画面</string>
+    <string name="sensing_getofftheelevator">从电梯里走出来了吗？ </string>
+    <string name="sensing_cancel">取消（双击）</string>
+    <string name="sensing_yes">是的，结束收集数据（双击）</string>
+    <string name="finishbutton_sensing">取消收集数据吗?</string>
+    <string name="finishbuttonyes_sensing">是的</string>
+    <string name="finishbuttonno_sensing">不是</string>
+    <string name="bigredword_sensing">电梯加速度: </string>
+
+    <!-- calculated results -->
+    <string name="title_calculatedresults">电梯的计算结果：</string>
+    <string name="calcualted_btn_inputEleInfo">输入电梯信息</string>
+    <string name="store_to_local_calcualtedresults">保存到本地</string>
+    <string name="calculated_recoging">正在检测电梯数据...\n</string>
+    <string name="calculated_returnbutton">返回数据一览</string>
+    <string name="calcualted_EleSeg">乘坐的回数</string>
+    <string name="calculated_times">回\n移动的距离:</string>
+    <string name="calculated_speed">米\n最高速度：</string>
+    <string name="calculated_unrecog">没有识别到电梯\n如果您认为电梯数据收集正确，请上传数据。</string>
+    <string name="calculated_unit">米/秒</string>
+
+    <!-- upload activity -->
+    <string name="title_upload">上传数据</string>
+    <string name="uuid_upload">"UUID: "</string>
+    <string name="location_upload">"位置数据: "</string>
+    <string name="total_distance_upload">"移动距离: "</string>
+    <string name="gettinglocation_upload">收集中....</string>
+    <string name="failed_gettinglocation_upload">无法取得当前位置</string>
+    <string name="accuracy_upload">精度:</string>
+    <string name="meters_upload">m</string>
+    <string name="take_photo_upload">拍照</string>
+    <string name="upload_data_upload">上传全部数据</string>
+    <string name="storeLocal_upload">保存到本地</string>
+    <string name="loading_tv_upload">数据上传中.....</string>
+    <string name="finishbutton_upload">取消吗？</string>
+    <string name="finishbuttonyes_upload">是的</string>
+    <string name="finishbuttonno_upload">否</string>
+    <string name="insertBuilding_upload">输入建筑物</string>
+    <string name="insertElevator_upload">输入电梯</string>
+    <string name="selectBuilding_upload">选择建筑物：</string>
+    <string name="selectElevator_upload">选择电梯：</string>
+    <string name="getLocation_upload">取得现在位置中....</string>
+    <string name="startFloor_upload">开始楼层:</string>
+    <string name="middleFloor_upload">中途停下的楼层：</string>
+    <string name="endFloor_upload">结束楼层:</string>
+    <string name="storeLocalToast_upload">数据以保存到本地。</string>
+    <string name="ToastServerFailStoreLocal_upload">无法连接到服务器，数据以保存到本地</string>
+    <string name="ToastServerSuccess_upload">数据上传成功</string>
+    <string name="titleInBuilding_upload">请输入建筑物（例：北大图书馆）</string>
+    <string name="titleInElevator_upload">请输入电梯，只有一个的时候无需输入（例：左侧电梯）</string>
+    <string name="OnlyOneEle_upload">只有一个电梯</string>
+    <string name="addtionalbtn_upload">追加详细内容</string>
+    <string name="refreshHint_upload">重新启动</string>
+    <string name="refreshbtn_upload">重启画面</string>
+	<string name="buildinglist_btn_upload">输入建筑</string>
+    <string name="collectBuilding_Btn_upload">收集附近建筑物中...</string>
+	<string name="inputFloorNumber_upload">输入楼层</string>
+	<string name="selectBuildingName_upload">建筑物:</string>	
+    <string name="selectElevatorName_upload">电梯:</string>
+
+    <!-- additional info short Survey -->
+    <string name="additional_title">输入电梯信息</string>
+    <string name="additional_feelings">感受到加速度了吗？</string>
+    <string name="additional_shake">感受到震动了吗？</string>
+    
+    <string name="additional_acc_bad">强烈</string>
+    <string name="additional_acc_normal">一般</string>
+    <string name="additional_acc_good">没有察觉</string>     
+    <string name="additional_shake_bad">强烈</string>
+    <string name="additional_shake_normal">一般</string>
+    <string name="additional_shake_good">无振动</string>
+    
+    <string name="additional_capacity">最大电梯载重</string>    
+    <string name="additional_inputCapacity">输入重量</string>
+    <string name="additional_manufacturer">电梯厂家</string>
+    <string name="additional_chooseManufacturer">选择厂家</string>
+    <string name="additional_insertManufacturer">输入厂家：</string>
+    <string name="additional_mitubishi">三菱</string>
+    <string name="additional_hitachi">日立</string>
+    <string name="additional_toshiba">东芝</string>
+    <string name="additional_otis">奥的斯</string>
+    <string name="additional_fujitech">富士達</string>
+    <string name="additional_Schindler">迅达</string>
+    <string name="additional_nobrand">没有标品牌</string>
+    <string name="additional_otherBrand">其他品牌</string>
+    <string name="additional_otherElevator">随便记录</string>
+    <string name="additional_meno">其他</string>
+    <string name="additional_return">返回上传画面</string>
+    <!-- additional info long Survey -->
+    <string name="additional__whenaccel">加速時</string>
+    <string name="additional_whenshake">運行中の振動については？</string>
+    <string name="additional_whendecel">減速時</string>
+    
+    <!-- common -->
+    <string name="select_none">输入数值</string>
+    <string name="common_selected">已选择</string>
+
+    <!-- Settings activity -->
+    <string name="settings_title">设置</string>
+    <string name="settings_title_version">版本信息</string>
+    <string name="settings_title_policy">政策</string>
+    <string name="sdcard_stored_data">收集的数据</string>
+    <string name="setusername_settings">设置用户名</string>
+    <string name="helptitile_settings">帮助</string>
+    <string name="tutorialbutton_settings">启动教程</string>
+    <string name="username_settings">用户名：</string>
+    <string name="AuthorName">Programmed by Yang Tianhui</string>
+    <string name="university">Nagoya University UCLab\nProduced by Nobuo Kawaguchi</string>
+    <string name="verson">Verson 0.14</string>
+    <string name="Mail">Mail: elevator.locky@uclab.jp</string>
+    <string name="notice">本软件为了保护个人隐私，不搜集手机的ID，用户电话本和SIM卡信息等。</string>
+    <string name="notice2">为了区别不同的手机，本软件使用随机生成的UUID，收集信息包括UUID，手机的厂家，电梯位置，和加速度信号等。</string>
+    <string name="mailbutton_settings">Email:elevator.locky@uclab.jp</string>
+    
+    <!-- file viewer activity -->
+    <string name="fileViwer_noUnuploadedFile">没有数据</string>
+    <string name="fileViwer_unsend">未发送</string>
+    <string name="fileViwer_serverFail">无法连接服务器，请确认网路状况，然后再次上传。</string>
+    <string name="fileViwer_serverSuccess">上传成功</string>
+    <string name="fileViwer_select">请选择处理方式：</string>
+    <string name="fileViwer_delete">删除</string>
+    <string name="fileViwer_recog">识别</string>
+    <string name="fileViwer_upload">上传</string>   
+</resources>
